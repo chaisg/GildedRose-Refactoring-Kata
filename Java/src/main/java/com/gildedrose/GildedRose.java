@@ -7,6 +7,8 @@ class GildedRose {
         this.items = items;
     }
     //update the quality of items
+    //updated names of items
+   
     public void updateQuality() {
         for (int i = 0; i < items.length; i++) {
             if (!items[i].name.equals("Aged Brie")
